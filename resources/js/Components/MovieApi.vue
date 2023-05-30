@@ -32,7 +32,7 @@
 
         <div class="row lux-movie-list">
 
-            <div class="col-lg-6 col-md-6 col-sm-12" v-for="(movie, index) in movies" :key="index" >
+            <div class="col-lg-6 col-md-6 col-sm-12" v-for="(movie, index) in movies" :key="index">
                 <div class="card lux-movie-card">
                     <div class="row">
                         <div class="col-6">
@@ -58,7 +58,7 @@
 
 <script>
 import axios from "axios";
-import { debounce } from 'lodash';
+import {debounce} from 'lodash';
 
 export default {
     name: "movieApi",
@@ -119,7 +119,6 @@ export default {
 
     }
 };
-
 
 
 </script>
